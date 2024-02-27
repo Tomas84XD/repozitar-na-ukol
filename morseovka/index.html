@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="morseInput" class="container">
+        <label for="textInput">Text na morseovku:</label>
+        <input type="text" id="textInput">
+        <button onclick="convertToMorse()">Převézt</button>
+    </div>
+ 
+    <div id="morseOutput">
+        <label for="morseCode">Morseovka:</label>
+        <input type="text" id="morseCode" readonly>
+    </div>
+    
+
+    
+    <div class="container">
+        <p>Zadejte morseovku:</p>
+        <input type="text" id="morseCodeInput">
+        <button onclick="decodeMorse()">Dekodovat</button>
+        <p>Decoded Text:</p>
+        <div id="decodedText"></div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>

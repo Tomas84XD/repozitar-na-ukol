@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+   
+}
+ 
+#morseInput, #morseOutput {
+    margin: 20px;
+}
+ 
+input {
+    padding: 5px;
+    margin-right: 10px;
+}
+ 
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+ 
+#morseCode {
+    width: 300px;
+}
+
+.container {
+    margin-top: 15%;
+}
