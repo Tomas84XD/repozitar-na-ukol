@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sledovač Fitness Aktivit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="fitness-calendar">
+        <h1>Sledovač Fitness Aktivit</h1>
+        <div class="calendar">
+        </div>
+        <div class="input-section">
+            <label for="activity">Aktivita:</label>
+            <input type="text" id="activity" placeholder="Napište svoji aktivitu">
+            <label for="date">Datum:</label>
+            <input type="date" id="date">
+            <button onclick="logActivity()">Zaznamenat</button>
+        </div>
+        <div class="activity-log">
+            <h2>Aktivity</h2>
+            <ul id="activity-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
