@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    animation: tlacitko 20s ease infinite;
+    
+  }
+ 
+  .calculator {
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  .display {
+    height: 60px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: auto;
+    color: rgb(0, 0, 0);
+   
+  }
+ 
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+
+  }
+ 
+  button {
+    height: 80px;
+    width: 70px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
+    border: 1px rgb(0, 0, 0);
+    
+  }
+  
+  button:hover {
+    background-color: #000000;
+    color: white;
+  }
+ 
+  .prp {
+      color: rgb(0, 0, 0);
+  }
+ 
+ body{
+     background-image: url("https://media.hornbach.cz/hb/detail/as.46456693.jpg?dvid=8");
+ }  
