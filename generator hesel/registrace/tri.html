@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správce hesel</title>
+    <link rel="stylesheet" href="tri.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Správce hesel</h1>
+        <div id="passwordGenerator">
+            <form id="generatePasswordForm">
+                <label for="passwordLength">Délka Hesla:</label>
+                <input type="number" id="passwordLength" min="6" max="20" value="10">
+                <label for="includeNumbers">Zahrnout Čísla:</label>
+                <input type="checkbox" id="includeNumbers">
+                <label for="includeSpecialChars">Zahrnout Speciální Znaky:</label>
+                <input type="checkbox" id="includeSpecialChars">
+                <label for="includeUpperCase">Zahrnout Velká Písmena:</label>
+                <input type="checkbox" id="includeUpperCase">
+                <button type="submit">Vytvoření Náhodného Hesla</button>
+            </form>
+            <div id="generatedPassword"></div>
+        </div>
+        <div id="passwordList">
+        </div>
+        <form id="loginForm">
+            <label for="username">Uživatelské Jméno:</label>
+            <input type="text" id="username" required>
+            <label for="password">Heslo:</label>
+            <input type="password" id="password" required>
+            <button  type="submit"> <a href="http://127.0.0.1:5500/uvodn%C3%AD%20str%C3%A1nka/index.html"></a>Přihlásit se</button>
+        </form>
+    </div>
+    <script src="tri.js"></script>
+</body>
+</html>
