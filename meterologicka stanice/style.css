@@ -1,0 +1,60 @@
+
+.body {
+    font-family: courier, serif;
+    margin: 0;
+    padding: 0;
+    color: #B3B4BD;
+  }
+
+  .jedna {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+  }
+
+
+header {
+    background-color: #0a21c0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ 
+main {
+    padding: 20px;
+}
+ 
+footer {
+    background-color: #050A44;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
+#weather-container {
+    margin-bottom: 20px;
+}
+ 
+#city-selection {
+    margin-bottom: 20px;
+}
+ 
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
+
+.vitr {
+    color: white;
+    background-color: #B3B4BD;
+}
