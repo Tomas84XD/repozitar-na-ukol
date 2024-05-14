@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Rezervace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="koleso">
+    <h1>Restaurace u Medvěda</h1>
+</div>
+
+<div class="kolo">
+  <img src="https://i2-prod.mirror.co.uk/incoming/article8378943.ece/ALTERNATES/s1200c/PAY-A-photographer-who-was-heading-home-from-a-weekend-of-camping-was-stunned-when-he-waved-goodbye-to-a-bear--and-it.jpg" alt="" width="250" height="250">
+</div>
+
+<div class="calendar">
+  <input type="date" id="calendar-date" required>
+</div>
+
+
+
+<div class="reservation-form">
+  <input type="time" id="reservation-time" required>
+  <input type="number" id="number-of-guests" min="1" required>
+  <label for="repeat-reservation">Opakovaná rezervace:</label>
+  <select id="repeat-reservation">
+    <option value="none">Žádné opakování</option>
+    <option value="daily">Denně</option>
+    <option value="weekly">Týdně</option>
+    <option value="monthly">Měsíčně</option>
+  </select>
+  <label for="service-type">Typ služby:</label>
+  <select id="service-type">
+    <option value="standard">Standardní</option>
+    <option value="premium">Premium</option>
+  </select>
+  <button onclick="makeReservation()">Rezervovat</button>
+</div>
+<div class="login">
+  <input type="text" id="username" placeholder="Uživatelské jméno" required>
+  <input type="password" id="password" placeholder="Heslo" required>
+  <button onclick="login()">Přihlásit se</button>
+  <button onclick="register()">Vytvořit účet</button>
+  <button onclick="logout()">Odhlásit se</button>
+</div>
+<div class="reservation-list">
+  <ul id="reservation-list"></ul>
+</div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
