@@ -1,0 +1,1 @@
+<img src="https://i.postimg.cc/zG0XS6st/N-vrh-bez-n-zvu.png" alt="legenda já XD"> neztrat to 
