@@ -1,0 +1,39 @@
+<form action="/submit-order" method="POST" id="myForm">
+    <title>Objednávkový formulář</title>
+    <h1>Objednávkový formulář</h1>
+<br>
+<fieldset>
+<h3>Osobní Ůdaje</h3>
+<label for="Jméno">Jméno a příjmení:</label>
+<input type="text" id="jméno" name="jméno" placeholder="Zadejte jméno">
+<br><br>    
+<label for="TelephoneNumber">Telefonní číslo:</label>
+<input type="text" id="TelephoneNumber" name="TelephoneNumber" placeholder="Zadejte Telefonní číslo">
+<br><br>
+<label for="Email">Email:</label>
+<input type="text" id="Email" name="Email" placeholder="Zadejte Email">
+</fieldset>
+<br><br>
+<fieldset>
+<h3>Adresa Doručení</h3>
+<label for="adress">Ulice a číslo domu:</label>
+<input type="text" id="adress" name="adress" placeholder="Zadejte ulici a číslo domu">
+<br><br>
+<label for="Město">Zadejte Město:</label>
+<input type="text" id="Město" name="Město" placeholder="Zadejte Město">
+<br><br>
+<label for="psč">Zadejte PSČ:</label>
+<input type="text" id="psč" name="psč" placeholder="Zadejte PSČ">
+</fieldset>
+<br><br><fieldset>
+<h3>Způsob platby</h3>
+<label for="platba">Vyberte způsob platby:</label>
+<select name="platba" id="platba">
+  <option value="Kreditní karta">Kreditní karta</option>
+  <option value="Bankovní převod">Bankovní převod</option>
+  <option value="Dobírkou">Dobírkou</option>
+</select></fieldset>
+<br><br>
+<button type="button" id="submitBtn">Odeslat formulář</button>
+
+</form>
