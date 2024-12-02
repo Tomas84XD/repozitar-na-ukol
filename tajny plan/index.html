@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Number and YouTube Video</title>
+    <style>
+        #output {
+            font-size: 24px;
+            font-family: monospace;
+        }
+        #videoDisplay {
+            margin-top: 20px;
+            width: 100%;
+            height: 315px;
+            display: none;  /* Initially hide the video */
+        }
+    </style>
+</head>
+<body>
+    <label for="numberInput">Enter a number: </label>
+    <input type="text" id="numberInput">
+    
+    <button onclick="showNumberAndVideo()">Submit</button>
+    
+    <div id="output"></div>
+    
+    <!-- YouTube Video (hidden initially) -->
+    <iframe id="videoDisplay" src="https://www.youtube.com/watch?v=QzcvRDWgRIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <script src="script.js"></script>
+</body>
+</html>
