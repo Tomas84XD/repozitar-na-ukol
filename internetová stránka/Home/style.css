@@ -1,0 +1,113 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #112c38;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #49e4ff;
+}
+
+
+.product-container {
+  margin-top: 100px; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  flex-grow: 1; 
+}
+
+
+.card {
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 18px;
+  color: #555;
+}
+
+.card button {
+  background: #49e4ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #37c4d9;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
